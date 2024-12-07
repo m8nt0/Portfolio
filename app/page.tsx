@@ -30,12 +30,12 @@ export default function Home() {
       <main className="container mx-auto px-4 py-6 md:py-12">
         <section id="about" className="mx-auto max-w-4xl">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Revolutionizing Computing with Nature</h1>
-            <p className="text-gray-500 dark:text-gray-400">Harnessing the power of ecosystems for sustainable technology</p>
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl pb-4">I'm Mikias Berhane</h1>
+            <p className="text-gray-500 dark:text-gray-400 pb-4">Learning everything about how we can work along with nature</p>
           </div>
           <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
             <Image
-              src="/Portfolio/myprofile.jpg"
+              src="/myprofile.jpg"
               alt="Profile Picture"
               width={200}
               height={200}
@@ -43,17 +43,17 @@ export default function Home() {
             />
             <div>
               <p className="text-lg mb-4">
-                I'm a visionary technologist and environmentalist, dedicated to creating computing systems that work in harmony with nature. My goal is to develop technologies that not only minimize harm to our planet but actively contribute to its regeneration.
+                I'm a student, and visionary technologist, dedicated to creating computing systems that work with the goal of creating self-sustaining systems. My goal is to develop technologies that not only minimize harm to our planet but actively contribute to its ever-adaptive cycle.
               </p>
               <p className="text-lg">
-                With a background in computer science and ecology, I'm uniquely positioned to bridge the gap between technology and nature, creating innovative solutions for a sustainable future.
+                With a background in computer science, I'm continously learning about the four primary STEM subjects through the lens of nature.
               </p>
             </div>
           </div>
         </section>
 
         <section id="vision" className="mx-auto max-w-4xl pt-16">
-          <h2 className="text-2xl font-bold pb-4">My Vision</h2>
+          <h2 className="text-2xl font-bold pb-4">My Personal Vision</h2>
           <VisionSection />
         </section>
 
