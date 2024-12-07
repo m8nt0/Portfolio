@@ -64,13 +64,27 @@ export function ProjectsSection() {
       tags: ["C++", "Multithreading", "Data Structures"],
     },
     {
-        title: "ML Game",
+        title: 'Mini Hardware-Emulators',
+        date: '2023-04-20',
         description: [
-            "Desinegned a neural netowrk in which the agent reprogrammes itself to adjust its positiong from a preadtor (enemy). As time progresses, the agent gets better"
-        ]
+            'A project focused on reinventing CPU architecture using Rust.',
+            'Explores design and implementation of a custom CPU.',
+            'Emphasizes performance optimization and resource management.'
+        ],
+        tags: ['Rust', 'CPU Design', 'Hardware'],
     },
     {
-        title: 'Mini-Browser',
+        title: 'Mini OS',
+        date: '2023-09-05',
+        description: [
+            'A project focused on reinventing OS architecture using Rust.',
+            'Explores design and implementation of a custom CPU.',
+            'Emphasizes performance optimization and resource management.'
+        ],
+        tags: ['Rust', 'CPU Design', 'Hardware'],
+    },
+    {
+        title: 'Mini Desktop-Applications',
         date: '2023-01-15',
         description: [
             'A lightweight web browser developed in C++ that focuses on speed and efficiency.',
@@ -81,7 +95,17 @@ export function ProjectsSection() {
         tags: ['C++', 'Browser', 'SFML', 'UI/UX'],
     },
     {
-        title: 'Self-Learning Game',
+        title: 'Mini Mobile-Games',
+        date: '2023-04-20',
+        description: [
+            'A project focused on reinventing CPU architecture using Rust.',
+            'Explores design and implementation of a custom CPU.',
+            'Emphasizes performance optimization and resource management.'
+        ],
+        tags: ['Rust', 'CPU Design', 'Hardware'],
+    },
+    {
+        title: 'Mini AI-Interactive Models',
         date: '2023-03-10',
         description: [
             'An innovative AI-driven game that adapts to the player’s skill level.',
@@ -101,16 +125,6 @@ export function ProjectsSection() {
         tags: ['C++', 'Calculator', 'UI/UX'],
     },
     {
-        title: 'CPU',
-        date: '2023-04-20',
-        description: [
-            'A project focused on reinventing CPU architecture using Rust.',
-            'Explores design and implementation of a custom CPU.',
-            'Emphasizes performance optimization and resource management.'
-        ],
-        tags: ['Rust', 'CPU Design', 'Hardware'],
-    },
-    {
         title: 'All-Web-Demo',
         date: '2023-05-15',
         description: [
@@ -121,7 +135,7 @@ export function ProjectsSection() {
         tags: ['Web Development', 'Demo', 'HTML', 'CSS', 'JavaScript'],
     },
     {
-        title: 'Lovli',
+        title: 'Lovli Social-Network',
         date: '2023-06-01',
         description: [
             'A sophisticated dating application built with Next.js.',

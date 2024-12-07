@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { Github, Linkedin, Menu, Twitter } from 'lucide-react'
+import ThemeToggle from './ThemeToggle'
 
 export function NavigationMenu() {
   const [open, setOpen] = React.useState(false)
@@ -64,8 +65,9 @@ export function NavigationMenu() {
           </ScrollArea>
         </SheetContent>
       </Sheet>
-      <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
+      <div className="flex flex-1 items-center justify-end">
         <div className="flex items-center">
+          <ThemeToggle />
           <Button variant="ghost" size="icon" asChild>
             <Link href="https://github.com/m8nt0">
               <Github className="h-5 w-5" />
