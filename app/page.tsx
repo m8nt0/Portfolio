@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
             <Image
-              src="/myprofile.jpg"
+              src="/Portfolio/myprofile.jpg"
               alt="Profile Picture"
               width={200}
               height={200}
