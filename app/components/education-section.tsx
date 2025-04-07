@@ -2,7 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 
 export function EducationSection() {
-  const education = {
+  const education = 
+  {
     degree: "B.S. Computer Science",
     school: "University of California Santa Cruz",
     graduationYear: "Class of 2026",
@@ -19,7 +20,20 @@ export function EducationSection() {
       "CSE 101 (Data Structs & Algs)",
       "CSE 120 (Computer Architecture)"
     ]
-  }
+  },
+  {
+    degree: "B.S. Computer Science",
+    school: "San Franscico State University",
+    graduationYear: "Class of 2026",
+    courses: [
+      "Math 324 (Prob)", 
+      "PHYS 220, CSC 317 (Web Dev)", 
+      "CS 111C, CSC 300GW", 
+      "CSC 413, PHYS 230", 
+      "PHYS 222", 
+      "PHYS 232"
+    ]
+  },
 
   return (
     <Card>
