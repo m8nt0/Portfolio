@@ -24,6 +24,24 @@ export function ProjectsSection() {
       title: "Piezoelectric Energy Harvester",
       description: "Designing a system to capture and store energy from everyday movements and vibrations.",
       tags: ["Energy Harvesting", "Kinetic Power"],
+    },    
+    {
+      title: 'Mini Mobile-Games',
+      description: [
+          'A project focused on reinventing CPU architecture using Rust.',
+          'Explores design and implementation of a custom CPU.',
+          'Emphasizes performance optimization and resource management.'
+      ],
+      tags: ['Rust', 'CPU Design', 'Hardware'],
+    },
+    {
+      title: 'Mini AI-Interactive Models',
+      description: [
+          'An innovative AI-driven game that adapts to the player’s skill level.',
+          'Utilizes machine learning algorithms to adjust difficulty.',
+          'Enhances user engagement through personalized challenges.'
+      ],
+      tags: ['AI', 'Game Development', 'Machine Learning'],
     },
     {
       title: "Xululo",
@@ -95,26 +113,6 @@ export function ProjectsSection() {
         tags: ['C++', 'Browser', 'SFML', 'UI/UX'],
     },
     {
-        title: 'Mini Mobile-Games',
-        date: '2023-04-20',
-        description: [
-            'A project focused on reinventing CPU architecture using Rust.',
-            'Explores design and implementation of a custom CPU.',
-            'Emphasizes performance optimization and resource management.'
-        ],
-        tags: ['Rust', 'CPU Design', 'Hardware'],
-    },
-    {
-        title: 'Mini AI-Interactive Models',
-        date: '2023-03-10',
-        description: [
-            'An innovative AI-driven game that adapts to the player’s skill level.',
-            'Utilizes machine learning algorithms to adjust difficulty.',
-            'Enhances user engagement through personalized challenges.'
-        ],
-        tags: ['AI', 'Game Development', 'Machine Learning'],
-    },
-    {
         title: 'Calculator',
         date: '2023-02-05',
         description: [
@@ -145,41 +143,21 @@ export function ProjectsSection() {
         tags: ['Next.js', 'Web App', 'Dating', 'Real-time'],
     },
     {
-        title: 'Chat Application',
+        title: 'Langy',
         date: '2023-07-10',
         description: [
-            'A real-time chat application that allows users to communicate seamlessly.',
-            'Built using WebSocket technology for real-time data transfer.',
-            'Features group chats and private messaging.'
+            'A comprehensive board format comparison of various languages up-date',
+            'Built using Svelte',
+            'Features stack view, timeline view, and 1-to-1 comparison view.'
         ],
-        tags: ['WebSocket', 'Chat', 'Real-time', 'JavaScript'],
-    },
-    {
-        title: 'Task Manager',
-        date: '2023-08-05',
-        description: [
-            'An intuitive task management application to organize daily activities.',
-            'Includes task prioritization, deadlines, and reminders.',
-            'Focuses on productivity and time management.'
-        ],
-        tags: ['Productivity', 'Task Management', 'Web App'],
-    },
-    {
-        title: 'Weather App',
-        date: '2023-09-15',
-        description: [
-            'A dynamic weather application providing real-time updates and forecasts.',
-            'Utilizes APIs to fetch weather data.',
-            'Features location search and severe weather alerts.'
-        ],
-        tags: ['API', 'Weather', 'JavaScript', 'Web App'],
+        tags: ['Opensource', 'Svelte', 'JavaScript'],
     },
     {
         title: 'Portfolio Website',
         date: '2023-10-01',
         description: [
-            'A personal portfolio website showcasing projects, skills, and experiences.',
-            'Built with modern web technologies for a digital resume.',
+            'A personal portfolio website showcasing projects, skills, and experiences',
+            'Built with modern web technologies for a digital resume',
             'Highlights responsive design principles and best practices.'
         ],
         tags: ['Portfolio', 'Web Development', 'HTML', 'CSS', 'JavaScript'],
