@@ -54,7 +54,7 @@ export function EducationSection() {
             </div>
           </CardContent>
         </Card>
-      ))
+      ))}
     </div>
   )
 }
