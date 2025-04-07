@@ -4,43 +4,44 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 export function ExploreSection() {
   const exploreAreas = [
     {
-      title: "Using the Visible Ecosystem for Computing",
+      title: "Biomimetic Computing Architectures",
       content: [
-        "Study behavioral patterns in nature (e.g., ant colonies, plant root systems)",
-        "Observe and replicate natural structures (e.g., fractals) in computing architectures",
-        "Harness energy from natural systems like photosynthesis or biomechanical movements"
+        "Ant Colony Optimization → Distributed Governance: Voting/consensus algorithms modeled after pheromone trails, enabling self-organizing policy decisions.",
+        "Bee Democracy → Liquid Delegation: Dynamic vote delegation for efficient representation in large-scale governance.",
+        "Recursive Modularity: Hardware (card-based compute) and software layers that replicate self-similar patterns for scalability.",
+        "Resource Distribution: Mimic plant root networks for adaptive bandwidth/storage allocation in decentralized systems."
       ]
     },
     {
-      title: "Feedback Loops in Ecosystems",
+      title: "Ecosystem Feedback Loops",
       content: [
-        "Understand and apply ecosystem feedback principles to create self-sustaining computing systems",
-        "Explore predator-prey dynamics for load-balancing algorithms",
-        "Study plant growth responses to design adaptable computing components"
+        "Predator-Prey Dynamics to Load Balancing whereby to autoscale compute/storage resources using population models predator processes regulate and prey workloads",
+        "Solar-powered modular cards prioritize low-energy operations during resource scarcity (like CAM plants).",
+        "Reward users for contributing renewable energy to the network (currency earned via 'energy symbiosis')."
       ]
     },
     {
-      title: "Interaction Between Visible Life and Computing",
+      title: "Bio-integrated Transactional Network Models",
       content: [
-        "Develop systems that use environmental changes as computational inputs",
-        "Create sensors that translate natural events into processable data",
-        "Mimic biological networks for decentralized, resilient computing models"
+        "Mycorrhizal Networks → Decentralized Communication: Sensors on modular cards share encrypted data via fungal-inspired mesh protocols",
+        "Stomatal Responses → Adaptive Privacy: Systems 'breathe' data access like plant stomata, opening/closing based on environmental trust scores.",
+        "Coral Reef Redundancy: Backup/redundant systems in modular hardware mimic coral polyps’ distributed survival strategies."
       ]
     },
     {
-      title: "Building Computing Systems with Unseen Life",
+      title: "Microbial and Molecular Computing",
       content: [
-        "Explore microbial systems for biological circuits",
-        "Investigate cellular computation and synthetic biology",
-        "Study molecular interactions for efficient, parallel processing systems"
+        "DNA Storage: Encode critical governance policies in synthetic DNA for ultra-secure, high-density storage on light modular cards",
+        "Enzyme Catalysis → Parallel Processing: Task scheduling inspired by enzymatic efficiency, prioritizing high-priority workflows",
+        "Bacterial quorum sensing intervening in consensus protocols like microbial communication models to detect and resolve conflicts in decentralized governance"
       ]
     },
     {
-      title: "Learning to Work with the Ecosystem",
+      title: "Ecological Governance Design and Energy-Matter Circularity",
       content: [
-        "Study ecology to understand species and ecosystem interactions",
-        "Apply biomimicry principles to solve complex computing problems",
-        "Investigate how ecosystems generate, use, and recycle energy"
+        "ATP mimicking currency as such being contribution based tokens cycle through users, applications and hardware like cellular energy",
+        "E-Waste mycoremeditation in which modular cards/biodegradable components broken down by fungi-inspired recycling protocols enforced",
+        "System inherits nature cycle breakdown to build a closed-loop economy based, in that of earned is burned in the same manner"
       ]
     }
   ]
@@ -49,7 +50,7 @@ export function ExploreSection() {
     <Card>
       <CardHeader>
         <CardTitle>Areas to Explore Further</CardTitle>
-        <CardDescription>Dive deeper into these topics to advance eco-friendly computing</CardDescription>
+        <CardDescription>Dive deeper into these topics</CardDescription>
       </CardHeader>
       <CardContent>
         <Accordion type="single" collapsible className="w-full">
