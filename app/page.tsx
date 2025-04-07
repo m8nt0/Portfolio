@@ -43,10 +43,10 @@ export default function Home() {
             />
             <div>
               <p className="text-lg mb-4">
-                I'm a student, and visionary technologist, dedicated to creating computing systems that work with the goal of creating self-sustaining systems. My goal is to develop technologies that not only minimize harm to our planet but actively contribute to its ever-adaptive cycle.
+                I'm a student and visionary technologist, dedicated to creating computing systems that work to create self-sustaining and self-organizing systems. My goal is to develop technologies that minimize harm to our planet and actively contribute to its ever-adaptive cycle.
               </p>
               <p className="text-lg">
-                With a background in computer science, I'm continously learning about the four primary STEM subjects through the lens of nature.
+                With a background in computer science, I'm continuously learning about the four primary subjects through the lens of nature.
               </p>
             </div>
           </div>
