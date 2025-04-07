@@ -43,7 +43,8 @@ export default function Home() {
             />
             <div>
               <p className="text-lg mb-4">
-                Student and Visionary technologist, dedicated to creating/optimizing computing systems balancing self-sustaining and self-organizing systems. 
+                Student and Visionary technologist dedicated to creating/optimizing computing systems balancing self-sustaining and self-organizing systems. 
+              </p>
               <p className="text-lg">
                 Applying biological principles to design decentralized, adaptive systems that harmonize human governance, computing, and ecology.
               </p>
