@@ -36,19 +36,21 @@ export function EducationSection() {
   },
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{education.degree}</CardTitle>
-        <CardDescription>{education.school}, {education.graduationYear}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <h3 className="font-semibold mb-2">Relevant Coursework</h3>
-        <div className="flex flex-wrap gap-2">
-          {education.courses.map((course, index) => (
-            <Badge key={index} variant="secondary">{course}</Badge>
-          ))}
-        </div>
-      </CardContent>
-    </Card>
+    {education.map((item, index) => (
+      <Card key={index}>
+        <CardHeader>
+          <CardTitle>{education.degree}</CardTitle>
+          <CardDescription>{education.school}, {education.graduationYear}</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <h3 className="font-semibold mb-2">Relevant Coursework</h3>
+          <div className="flex flex-wrap gap-2">
+            {education.courses.map((course, index) => (
+              <Badge key={index} variant="secondary">{course}</Badge>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+    )
   )
 }
