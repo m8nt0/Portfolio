@@ -42,13 +42,13 @@ export function EducationSection() {
       {education.map((item, index) => (
         <Card key={index}>
           <CardHeader>
-            <CardTitle>{education.degree}</CardTitle>
-            <CardDescription>{education.school}, {education.graduationYear}</CardDescription>
+            <CardTitle>{item.degree}</CardTitle>
+            <CardDescription>{item.school}, {item.graduationYear}</CardDescription>
           </CardHeader>
           <CardContent>
             <h3 className="font-semibold mb-2">Relevant Coursework</h3>
             <div className="flex flex-wrap gap-2">
-              {education.courses.map((course, index) => (
+              {item.courses.map((course, index) => (
                 <Badge key={index} variant="secondary">{course}</Badge>
               ))}
             </div>
